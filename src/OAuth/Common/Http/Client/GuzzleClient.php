@@ -76,7 +76,6 @@ class GuzzleClient extends AbstractClient
         }
 
         try {
-
             // Create request
             $request = $this->getClient()->createRequest(
                 $method,
